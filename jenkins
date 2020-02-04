@@ -1,0 +1,25 @@
+pipiline{
+
+agent any
+
+stages{
+
+		stage("init"){
+			step{
+				echo "initialization"
+			}
+		}
+
+		stage("build"){
+			step{
+				echo "build successful"
+			}
+		}
+
+		stage("deploy"){
+			step{
+				echo "deployed successfully"
+			}
+		}
+	}
+}
