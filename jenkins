@@ -5,19 +5,19 @@ agent any
 stages{
 
 		stage("init"){
-			step{
+			steps{
 				echo "initialization"
 			}
 		}
 
 		stage("build"){
-			step{
+			steps{
 				echo "build successful"
 			}
 		}
 
 		stage("deploy"){
-			step{
+			steps{
 				echo "deployed successfully"
 			}
 		}
